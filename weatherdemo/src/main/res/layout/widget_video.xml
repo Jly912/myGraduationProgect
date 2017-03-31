@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+
+    <!--播放控件-->
+    <io.vov.vitamio.widget.VideoView
+        android:id="@+id/vvv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <!--底部控件-->
+    <include layout="@layout/widget_video_bottom" />
+
+    <!--顶部控件-->
+    <include layout="@layout/widget_video_head"/>
+
+    <!--中间控件-->
+    <include layout="@layout/widget_video_middle"/>
+
+</RelativeLayout>

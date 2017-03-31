@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="450px"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorAccent">
+
+    <EditText
+        android:id="@+id/et_tel"
+        android:layout_width="382px"
+        android:layout_height="60px"
+        android:layout_marginTop="16px"
+        android:background="@drawable/edit_text_shape"
+        android:gravity="center_vertical"
+        android:hint="电话"
+        android:padding="16px"
+        android:textColor="#fff"
+        android:textColorHint="#8bb4b3b3"
+        android:textSize="24px" />
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="382px"
+        android:layout_height="60px"
+        android:gravity="center_vertical"
+        android:background="@drawable/edit_text_shape"
+        android:hint="就餐人数"
+        android:padding="16px"
+        android:textColor="#fff"
+        android:textColorHint="#8bb4b3b3"
+        android:textSize="24px" />
+
+    <com.jal.weatherapp.VirtualKeyboardView
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="cb">
+        <item name="android:button">@drawable/shape_rb</item>
+        <item name="android:layout_width">156px</item>
+        <item name="android:layout_height">26px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">16px</item>
+        <item name="android:background">@drawable/selector_rb</item>
+        <item name="android:layout_marginTop">20px</item>
+    </style>
+
+    <style name="RadioButtonStyle">
+        <item name="android:button">@drawable/shape_rb</item>
+    </style>
+
+</resources>

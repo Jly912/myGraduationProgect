@@ -1,0 +1,60 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'de.halfbit:pinned-section-listview:1.0.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.yalantis:phoenix:1.2.3'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.bartoszlipinski:recyclerviewheader:1.2.1'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'io.reactivex:rxjava:1.2.1'
+    compile 'io.reactivex:rxandroid:1.2.1'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:converter-scalars:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    //下拉刷新
+    compile 'in.srain.cube:ultra-ptr:1.0.11'
+    //圆角图片控件,支持圆形椭圆形圆角
+    compile 'com.makeramen:roundedimageview:2.2.1'
+    compile 'com.android.support:cardview-v7:24.2.1'
+    //viewpager自动轮播
+    compile 'com.bigkoo:convenientbanner:2.0.5'
+    //屏幕适配
+    compile 'com.android.support:percent:24.2.0'
+
+    //图片轮播
+    compile 'cn.bingoogolapple:bga-banner:2.1.5@aar'
+    compile 'com.android.support:support-v4:24.0.1'
+    //自定义的
+    compile 'com.yanzhenjie:recyclerview-swipe:1.0.2'
+    //上下刷新加载
+    compile 'in.srain.cube:ultra-ptr:1.0.11'
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="495px">
+
+    <!-- 输入键盘 -->
+    <GridView
+        android:id="@+id/gv_keybord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="41px"
+        android:numColumns="3"
+        android:verticalSpacing="16px"
+        android:layout_marginBottom="34px"
+        android:layout_marginTop="34px"
+    />
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="match_parent"
+        android:layout_height="91px"
+        android:textColor="#fff"
+        android:textSize="44px"
+        android:layout_below="@+id/gv_keybord"
+        android:background="@drawable/bottom_shape"
+        android:text="取号"/>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="gray">#2888</color>
+    <color name="red">#f00</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="line">#e0e0e0</color>
+    <color name="colorTextDark">#424242</color>
+    <color name="colorTextDark2nd">#757575</color>
+    <color name="actionColor">#FF4081</color>
+
+    <color name="lapis_blue">#014284</color>
+    <color name="pale_dogwood">#ECCAC0</color>
+    <color name="greenery">#7DA743</color>
+    <color name="primrose_yellow">#F1C84C</color>
+    <color name="flame">#F44727</color>
+    <color name="island_paradise">#8AD9E0</color>
+    <color name="kale">#4E673F</color>
+    <color name="pink_yarrow">#C72B6C</color>
+    <color name="niagara">#4C829E</color>
+
+    <color name="text_color_secondary">#3e3e3e</color>
+    <array name="colors">
+        <item>@color/lapis_blue</item>
+        <item>@color/pale_dogwood</item>
+        <item>@color/greenery</item>
+        <item>@color/primrose_yellow</item>
+        <item>@color/flame</item>
+        <item>@color/island_paradise</item>
+        <item>@color/kale</item>
+        <item>@color/pink_yarrow</item>
+        <item>@color/niagara</item>
+    </array>
+
+    <color name="backbg">#1e878787</color>
+
+    <color name="bg">#c9080808</color>
+
+    <color name="city_item_letter_color">#ff8c8c8c</color>
+    <color name="city_search_bg">#fff2f2f2</color>
+    <color name="city_item_divider_color">#ffdddddc</color>
+    <color name="city_item_text_color">#ff5c5c5c</color>
+</resources>

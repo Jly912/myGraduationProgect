@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">WeatherDemo</string>
+
+    <string name="menu_news">干货集中营</string>
+    <string name="menu_photo">美图</string>
+    <string name="menu_video">视频</string>
+    <string name="menu_weather">天气</string>
+    <string name="menu_music">音乐</string>
+    <string name="menu_title_other">其他</string>
+    <string name="menu_night_mode">夜间模式</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_about">关于</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="theme">主题</string>
+    <string name="done">确定</string>
+    <string name="cancel">取消</string>
+    <string name="bus_nearby_line">附近线路</string>
+    <string name="bus_nearby_station">附近站台</string>
+    <string name="bus_favorites">我的收藏</string>
+
+    <string name="yesterday">昨天</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+
+    <string name="network_error">网络错误</string>
+
+    <string name="transition_photo">transition_animation_news_photos</string>
+
+    <string-array name="tts_voice_value">
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>vixy</item>
+        <item>xiaoqi</item>
+        <item>vixf</item>
+        <item>xiaomei</item>
+        <item>xiaolin</item>
+    </string-array>
+
+    <string-array name="share_type">
+        <item>纯文本</item>
+        <item>仿锤子便签</item>
+    </string-array>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="170px"
+        android:layout_height="120px"
+        android:background="#22aba7a7"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textSize="44px" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-2人"
+            android:textSize="28px" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/mainColor"
+            android:layout_marginTop="16px"
+            android:layout_gravity="bottom|center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="170px"
+        android:layout_height="120px"
+        android:background="#22aba7a7"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textSize="44px" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4-6人"
+            android:textSize="28px" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/mainColor"
+            android:layout_marginTop="16px"
+            android:layout_gravity="bottom|center_horizontal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="170px"
+        android:layout_height="120px"
+        android:background="#22aba7a7"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textSize="44px" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8-10人"
+            android:textSize="28px" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/mainColor"
+            android:layout_marginTop="16px"
+            android:layout_gravity="bottom|center_horizontal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="170px"
+        android:layout_height="120px"
+        android:background="#22aba7a7"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:layout_gravity="center"
+            android:textSize="44px" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10人以上"
+            android:textSize="28px" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/mainColor"
+            android:layout_marginTop="16px"
+            android:layout_gravity="bottom|center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="170px"
+        android:layout_height="120px"
+        android:background="#22aba7a7"
+        android:orientation="vertical"
+        android:paddingRight="16px"
+        android:gravity="right|center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28px"
+            android:text="等待桌位数"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28px"
+            android:text="人数"
+            android:layout_marginTop="16px"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

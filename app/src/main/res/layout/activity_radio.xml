@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<RadioGroup-->
+    <!--android:id="@+id/rg"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/rb1"-->
+    <!--style="@style/RadioButtonStyle"-->
+    <!--android:layout_width="158px"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="20px"-->
+    <!--android:background="@drawable/selector_rb"-->
+    <!--android:gravity="center"-->
+    <!--android:text="1-2人" />-->
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/rb2"-->
+    <!--style="@style/RadioButtonStyle"-->
+    <!--android:layout_width="159px"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="20px"-->
+    <!--android:background="@drawable/selector_rb"-->
+    <!--android:gravity="center"-->
+    <!--android:text="3-4人" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/rb3"-->
+    <!--style="@style/RadioButtonStyle"-->
+    <!--android:layout_width="158px"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="20px"-->
+    <!--android:background="@drawable/selector_rb"-->
+    <!--android:gravity="center"-->
+    <!--android:text="8-10人" />-->
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/rb4"-->
+    <!--style="@style/RadioButtonStyle"-->
+    <!--android:layout_width="159px"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="20px"-->
+    <!--android:background="@drawable/selector_rb"-->
+    <!--android:gravity="center"-->
+    <!--android:text="10人以上" />-->
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+
+    <!--</RadioGroup>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_rb"
+            android:layout_margin="20px"
+            android:gravity="center"
+            android:text="1-2"
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_rb"
+            android:layout_margin="20px"
+            android:gravity="center"
+            android:text="1-2"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

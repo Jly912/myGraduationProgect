@@ -1,0 +1,52 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="normal_textSize">16sp</dimen>
+    <dimen name="middle_textSize">20sp</dimen>
+    <dimen name="large_textSize">22sp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp40">40dp</dimen>
+    <dimen name="dp60">60dp</dimen>
+    <dimen name="dp80">80dp</dimen>
+    <dimen name="dp100">100dp</dimen>
+    <dimen name="dp120">120dp</dimen>
+    <dimen name="dp140">140dp</dimen>
+    <dimen name="dp150">150dp</dimen>
+    <dimen name="dp160">160dp</dimen>
+    <dimen name="dp180">180dp</dimen>
+    <dimen name="dp190">190dp</dimen>
+    <dimen name="dp210">210dp</dimen>
+    <dimen name="dp220">220dp</dimen>
+    <dimen name="dp230">230dp</dimen>
+
+    <dimen name="text_size_s">12sp</dimen>
+    <dimen name="text_size_m">14sp</dimen>
+    <dimen name="text_size_l">16sp</dimen>
+    <dimen name="text_size_xxl">20sp</dimen>
+
+    <dimen name="padding_size_s">4dp</dimen>
+    <dimen name="padding_size_m">6dp</dimen>
+    <dimen name="padding_size_l">8dp</dimen>
+    <dimen name="padding_size_xl">10dp</dimen>
+    <dimen name="padding_size_xxl">16dp</dimen>
+
+    <dimen name="post_img_count_height">16dp</dimen>
+    <dimen name="post_img_count_tv_size">9sp</dimen>
+
+
+    <dimen name="img_size_l">80dp</dimen>
+    <dimen name="img_size_width">100dp</dimen>
+    <dimen name="img_size_height">75dp</dimen>
+    <dimen name="app_bar_height">256dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="height_size_l">40dp</dimen>
+    <dimen name="height_size_m">36dp</dimen>
+    <dimen name="text_size_big">28sp</dimen>
+
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

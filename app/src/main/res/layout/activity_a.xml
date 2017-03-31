@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="382px"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="382px"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb1"
+                style="@style/cb"
+                android:text="1-2人"
+                />
+
+            <RadioButton
+                android:id="@+id/rb2"
+                style="@style/cb"
+                android:text="4-6人" />
+
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="382px"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<RadioButton-->
+                <!--android:id="@+id/rb3"-->
+                <!--style="@style/cb"-->
+                <!--android:text="8-10人"-->
+
+                <!--/>-->
+
+            <!--<RadioButton-->
+                <!--android:id="@+id/rb4"-->
+                <!--style="@style/cb"-->
+                <!--android:text="10人以上" />-->
+        <!--</LinearLayout>-->
+
+    </RadioGroup>
+
+
+</LinearLayout>
